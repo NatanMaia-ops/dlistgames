@@ -4,12 +4,12 @@ import com.projetodevsuperior.dslist.entities.Game;
 import com.projetodevsuperior.dslist.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @Service
 public class GameService {
+
     @Autowired
     private GameRepository gameRepository;
 
